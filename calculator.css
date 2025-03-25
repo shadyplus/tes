@@ -1,0 +1,59 @@
+.calculator-container {
+  max-width: 600px;
+  width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-button {
+
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+.calculator-title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #d9534f;
+}
+
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.question label {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.question input {
+  font-size: 20px;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
